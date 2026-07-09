@@ -6,7 +6,7 @@ yang diekstrak dari ulasan produk Tokopedia.
 
 **Ide inti:** Dua aspek (misal "harga" dan "kualitas") dianggap "terhubung"
 kalau sering disebut bersamaan dalam ulasan yang sama. Bobot koneksi diperkaya
-dengan korelasi sentimen — apakah ulasan negatif pada satu aspek cenderung
+dengan korelasi sentimen - apakah ulasan negatif pada satu aspek cenderung
 diikuti negatif pada aspek lain?
 
 ## Pertanyaan Penelitian
