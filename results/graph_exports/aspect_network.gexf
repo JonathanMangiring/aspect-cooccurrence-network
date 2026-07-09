@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-07-09">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="neg_alignment" type="long" />
+      <attribute id="1" title="neg_ratio" type="double" />
+    </attributes>
+    <nodes>
+      <node id="pengiriman" label="pengiriman" />
+      <node id="pelayanan" label="pelayanan" />
+      <node id="kualitas" label="kualitas" />
+      <node id="packing" label="packing" />
+      <node id="harga" label="harga" />
+    </nodes>
+    <edges>
+      <edge source="pengiriman" target="pelayanan" id="0" weight="36">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.056" />
+        </attvalues>
+      </edge>
+      <edge source="pengiriman" target="kualitas" id="1" weight="43">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.047" />
+        </attvalues>
+      </edge>
+      <edge source="pengiriman" target="harga" id="2" weight="9">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="pengiriman" target="packing" id="3" weight="12">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="pelayanan" target="kualitas" id="4" weight="31">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.065" />
+        </attvalues>
+      </edge>
+      <edge source="pelayanan" target="harga" id="5" weight="6">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.167" />
+        </attvalues>
+      </edge>
+      <edge source="pelayanan" target="packing" id="6" weight="9">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="kualitas" target="packing" id="7" weight="8">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="kualitas" target="harga" id="8" weight="18">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.056" />
+        </attvalues>
+      </edge>
+      <edge source="packing" target="harga" id="9" weight="2">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

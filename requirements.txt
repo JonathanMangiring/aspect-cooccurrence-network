@@ -1,0 +1,27 @@
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# NLP & ABSA model
+transformers>=4.40.0
+torch>=2.2.0
+sentencepiece
+nltk
+Sastrawi          # stemmer & stopword remover Bahasa Indonesia
+
+# Graph / SNA
+networkx>=3.2
+python-louvain    # community detection (import as `community`)
+pyvis             # visualisasi graph interaktif
+
+# Viz
+matplotlib
+seaborn
+plotly
+
+# Notebook
+jupyter
+ipykernel
+
+# Utilities
+tqdm
