@@ -34,10 +34,10 @@ Berikut adalah beberapa hasil *plot* yang digenerate oleh pipeline ini:
 
 ## Cara Menjalankan
 
-### Opsi 1: Pipeline Otomatis (Direkomendasikan)
+### Opsi 1: Pipeline Otomatis
 ```bash
 python -m venv venv
-venv\Scripts\activate        # Windows
+venv\Scripts\activate       
 pip install -r requirements.txt
 
 # Jalankan seluruh pipeline sekaligus:
@@ -53,10 +53,10 @@ python run_pipeline.py --skip-absa       # skip inference, pakai file yg sudah a
 python src/preprocessing.py    # cleaning & normalisasi
 python src/absa_model.py       # ekstraksi aspek + sentimen
 python src/graph_builder.py    # bangun graph & export GEXF
-python src/visualize.py        # generate semua figure
+python src/visualize.py        
 ```
 
-### Opsi 3: Jupyter Notebooks (urut)
+### Opsi 3: Jupyter Notebooks
 ```
 notebooks/01_eda.ipynb              → EDA dataset
 notebooks/02_absa_extraction.ipynb  → ABSA & evaluasi kualitatif
