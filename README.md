@@ -113,7 +113,6 @@ sna-absa-ecommerce/
 - [x] Visualisasi graph (pyvis interaktif + matplotlib statik)
 - [x] Neg-alignment heatmap
 - [x] Export CSV centrality & edge attributes
-- [ ] Studi banding antar kategori produk (opsional)
 - [x] Tulis insight di `docs/report.md`
 
 ## Lisensi
